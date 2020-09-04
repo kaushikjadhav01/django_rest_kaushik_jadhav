@@ -2,6 +2,8 @@
 **Problem Statement:** https://docs.google.com/document/d/1F90KvSqxxPzIRyeX7kD3wULrT0xNJMLdIgGVHq4KMxk/ 
 <br><br>**Code Evaluation Criteria:** https://docs.google.com/document/d/1yA7S1w62iJFJpXQRsHHMfUEbs1ibaz8jn3P9S4n5rJQ/
 
+## NOTE: For a detailed documentation of the project with screenshots and details, refer the <a href ="https://github.com/kaushikjadhav01/django_rest_kaushik_jadhav/blob/master/Documentation.pdf">Documentation.pdf</a> file of this repository.
+
 # Installation
 Download this repository and change into directory of project. Then use pip to install all required pacakages. <pre>pip install -r requirements.txt</pre>
 
@@ -41,4 +43,3 @@ Search fields by specifying fields in route followed by suffix **'__icontains'**
 To create an Admin user via seeding, run the following command:
 <pre>python manage.py createsuperuser</pre>
 
-## NOTE: For a detailed documentation of the project with screenshots and details, refer the Documentation.pdf file of this repository.
