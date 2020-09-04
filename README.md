@@ -14,6 +14,10 @@ django_rest_kaushik_jadhav: Root folder of project
 |---- django_rest_kaushik_jadhav: This folder contains essential settings and configuration files of project.
 </pre>
 
+# Launching the API
+cd into the root folder of the project and run the following command:
+<pre>python manage.py runserver</pre>
+
 # Routes
 ### 127.0.0.1:8000/api/register
 POST request: Register a new user to get back user details and token
