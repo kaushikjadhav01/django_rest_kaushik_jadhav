@@ -28,10 +28,12 @@ POST request: Register a new user to get back user details and token
 POST request: Login an existing user to get token
 
 ### 127.0.0.1:8000/api/content/ or https://djangorestkj.herokuapp.com/api/content/
+Protected Route, need to provide token in Authorization HTTP header before using
 GET request: View All contents created by user<br>
 POST request: Add a new content
 
 ### 127.0.0.1:8000/api/content/:content_id/ or https://djangorestkj.herokuapp.com/api/content/content_id/
+Protected Route, need to provide token in Authorization HTTP header before using
 DELETE request: Delete particular content by id<br>
 UPDATE request: Update particular content by id
 
